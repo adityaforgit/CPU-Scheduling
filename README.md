@@ -6,14 +6,6 @@ An interactive, responsive, and educational web application for visualizing and 
 Built with **React**, **JavaScript**, **Vite**, **Recharts**, and custom **CSS**.
 
 ---
-
-## 🌟 References & Inspiration
-
-- **Live Reference Website:** [CPU Scheduling Algorithm Visualiser (Netlify)](https://cpu-scheduling-algorithm-visualiser.netlify.app/)
-- **Reference GitHub Repository:** [PrinceSinghhub/CPU-SCHEDULING-ALGORITHM-VISUALISER](https://github.com/PrinceSinghhub/CPU-SCHEDULING-ALGORITHM-VISUALISER)
-
----
-
 ## 🚀 Key Features
 
 ### 1. Supported CPU Scheduling Algorithms
@@ -72,19 +64,6 @@ Built with **React**, **JavaScript**, **Vite**, **Recharts**, and custom **CSS**
 
 ---
 
-## 📐 Formulas & Evaluation Metrics
-
-$$\text{Turnaround Time (TAT)} = \text{Completion Time (CT)} - \text{Arrival Time (AT)}$$
-
-$$\text{Waiting Time (WT)} = \text{Turnaround Time (TAT)} - \text{Burst Time (BT)}$$
-
-$$\text{Response Time (RT)} = \text{First Scheduled Time} - \text{Arrival Time (AT)}$$
-
-$$\text{CPU Utilization (\%)} = \left(\frac{\text{Busy CPU Time}}{\text{Total Time}}\right) \times 100$$
-
-$$\text{Throughput} = \frac{\text{Total Processes Completed}}{\text{Total Timeline Duration}}$$
-
----
 
 ## 🛠️ Tech Stack
 
@@ -95,52 +74,7 @@ $$\text{Throughput} = \frac{\text{Total Processes Completed}}{\text{Total Timeli
 - **Lucide React** — Modern, crisp UI icons
 - **CSS3** — Custom modern dark slate theme with responsive grids and animations
 
----
 
-## 📦 Getting Started
-
-### Prerequisites
-- Node.js (v18 or higher recommended)
-- npm (v9 or higher)
-
-### Installation
-Clone the repository and install dependencies:
-
-```bash
-cd "CPU scheduling"
-npm install
-```
-
-### Development Server
-Start the local Vite development server:
-
-```bash
-npm run dev
-```
-
-Open your browser at the URL shown in the terminal (typically `http://localhost:3000` or `http://localhost:5173`).
-
-### Run Test Suite
-Verify all 8 scheduling algorithms, preemption behaviors, idle periods, and mathematical invariants across 600+ test cases:
-
-```bash
-npm test
-```
-
-### Production Build
-Create an optimized production bundle:
-
-```bash
-npm run build
-```
-
-To preview the production build locally:
-
-```bash
-npm run preview
-```
-
----
 
 ## 📁 Project Architecture
 
@@ -173,13 +107,7 @@ npm run preview
 │       ├── ResultsTable.jsx        # Complete tabular results & CSV export
 │       ├── StepLog.jsx             # Chronological event log with filter & copy
 │       └── AlgorithmModal.jsx      # Educational theory and trade-off reference modal
-```
 
----
-
-## 📄 License
-
-MIT License. Open source and free for educational use.
 
 =======
 # CPU-Scheduling
