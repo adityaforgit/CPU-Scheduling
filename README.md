@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # CPU Scheduling Algorithm Visualizer ⚡🖥️
 
 An interactive, responsive, and educational web application for visualizing and analyzing operating system CPU scheduling algorithms in real time.
@@ -107,9 +106,3 @@ Built with **React**, **JavaScript**, **Vite**, **Recharts**, and custom **CSS**
 │       ├── ResultsTable.jsx        # Complete tabular results & CSV export
 │       ├── StepLog.jsx             # Chronological event log with filter & copy
 │       └── AlgorithmModal.jsx      # Educational theory and trade-off reference modal
-
-
-=======
-# CPU-Scheduling
-An interactive CPU scheduling visualizer built with React that simulates algorithms like FCFS, SJF, SRTF, Round Robin, Priority, LJF, and LRTF, with a Gantt chart and process performance metrics.
->>>>>>> 838760f7ea8f11f8a14406481782927ea66c72d4
